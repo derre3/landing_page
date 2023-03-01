@@ -3,6 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .top-container {
@@ -10,13 +11,17 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 10px 10%;
-    gap: 48px;
+    padding: 10px 250px;
+    gap: 32px;
+
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
 }
 
 .header-link {
@@ -26,15 +31,16 @@ body {
 
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 200px;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    
+    flex: 1 0 200px;
 }
 
 .hero-main {
@@ -54,18 +60,18 @@ a, .hero-sub {
     color: #f9faf8;
 }
 
-.owl-hero {
-    height: 400px;
-    border-radius: 20%;
-}
-
 .signup-hero {
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 10%;
+    border-radius: 8px;
     border: none;
     font-size: 16px;
     padding: 8px 28px;
     align-self: flex-start;
     margin-top: 12px;
+}
+
+.owl {
+    width: 650px;
+    border-radius: 15%;
 }
