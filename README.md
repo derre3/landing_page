@@ -6,3 +6,4 @@ This is my first landing page made in HTML+CSS using mainly flex in it's constru
 
 Credits:
 Owl placeholder image: anankkml @istockphoto.com
+Fox placeholder image: Natalie Hood @istockphoto.com
