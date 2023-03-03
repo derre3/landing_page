@@ -6,12 +6,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffdddc;
 }
 
 .top-container {
-    background-color: #fb8c84;
-    color: #0e344c;
     display: flex;
     flex-direction: column;
     padding: 20px 250px 80px;
@@ -49,12 +46,10 @@ body {
 .hero-main {
     font-size: 48px;
     font-weight: 900;
-    color: #0e344c;
 }
 
 a, .hero-sub {
     font-size: 18px;
-    color: #0e344c;
     text-decoration: none;
 }
 
@@ -70,8 +65,6 @@ a, .hero-sub {
 }
 
 .signup {
-    background-color: #0e344c;
-    color: #ffdddc;
     border-radius: 8px;
     font-size: 20px;
     padding: 8px 28px;
@@ -88,7 +81,6 @@ a, .hero-sub {
     height: auto;
     border-radius: 10px;
     border-style: solid;
-    border-color: #0e344c;
 }
 
 .mid-container {
@@ -102,7 +94,6 @@ a, .hero-sub {
     font-size: 48px;
     font-weight: 900;
     padding: 50px 0;
-    color: #0e344c;
 }
 
 .card-container {
@@ -116,7 +107,6 @@ a, .hero-sub {
 .card {
     width: 300px;
     text-align: center;
-    color: #0e344c;
 }
 
 .cat-img {
@@ -124,19 +114,12 @@ a, .hero-sub {
     height: 250px;
     border-radius: 25px;
     border-style: solid;
-    border-color: #f5c6c3;
 }
 
 .quote-container {
-    background-color: #f5c6c3;
     display: flex;
     flex-direction: column;
     padding: 100px 25%;
-}
-
-.quote-text, 
-.quote-author {
-    color: #1f2937e3;
 }
 
 .quote-text {
@@ -161,8 +144,6 @@ a, .hero-sub {
 
 .modal-container {
     display: flex;
-    background-color: #0e344c;
-    color: #ffdddc;
     border-radius: 10px;
     padding: 50px;
     align-items: center;
@@ -184,13 +165,58 @@ a, .hero-sub {
    display: flex;
    align-items: center;
    border-style: solid;
-   border-color: #ffdddc;
 }
 
 .footer {
-    background-color: #fb8c84;
-    color: #0e344c;
     font-size: 20px;
     text-align: center;
     padding: 32px 0px;
+}
+
+/* Page coloring below */
+
+body {
+    background-color: #ffdddc;
+}
+
+.footer,
+.top-container {
+    background-color: #fb8c84;
+}
+
+.footer,
+.card,
+.card-info,
+a,
+.hero-sub,
+.hero-main,
+.top-container {
+    color: #0e344c;
+}
+
+.modal-container,
+.signup {
+    background-color: #0e344c;
+    color: #ffdddc
+}
+
+.signup.modal {
+    border-color: #ffdddc;
+ }
+
+ .quote-container {
+    background-color: #f5c6c3;
+}
+
+.cat-img {
+    border-color: #f5c6c3;
+}
+
+.quote-text, 
+.quote-author {
+    color: #1f2937e3;
+}
+
+.cat-hero {
+    border-color: #0e344c;
 }
