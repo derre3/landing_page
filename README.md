@@ -5,6 +5,7 @@ This is my first landing page made in HTML+CSS using mainly flex in it's constru
 
 
 Credits:
+
 Logo image: https://www.freepik.com/author/taufikrizkyy
 
 Cat hero image: https://pixabay.com/users/rihaij-2145/
